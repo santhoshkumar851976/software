@@ -110,11 +110,11 @@ int main()
 		case 5:
 			b.withdrawl();
 			break;
-		case 6:
+		 6:
 			exit(1);
 			break;
 		default:
-			cout << "\nInvalid choice\n";
+			co << "\nInvalid choice\n";
 		}
-	}
-}
+	
+
