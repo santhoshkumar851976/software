@@ -1,6 +1,6 @@
 // C++ program to implement the ATM
 // Management System
-#include <iostream>
+include <iostream>
 #include <stdlib.h>
 #include <string.h>
 using namespace std;
@@ -27,16 +27,12 @@ public:
 
 		cout << "Enter Account number\n";
 		cin >> accnumber;
-		cout << "Enter Account type\n";
-		cin >> type;
-		cout << "Enter Balance\n";
-		cin >> tot;
-	}
+		c
 
 	// Function to display the required data
 	void showdata()
 	{
-		cout << "Name:" << name << endl;
+		"Name:" << name << endl;
 		cout << "Account No:" << accnumber << endl;
 		cout << "Account type:" << type << endl;
 		cout << "Balance:" << tot << endl;
@@ -50,7 +46,7 @@ public:
 	}
 
 	// Function to show the balance amount
-	void showbal()
+	void showb()
 	{
 		tot = tot + amount;
 		cout << "\nTotal balance is: " << tot;
